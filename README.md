@@ -2,9 +2,8 @@
 
 
 
-## A new way to archive easily
+## A new way to archive so easily it can be done right in notepad.
 
-## it can be done right in notepad.
 
 
 
