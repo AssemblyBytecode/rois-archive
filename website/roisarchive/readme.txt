@@ -1,1 +1,0 @@
-This part is outdated and seperate from my site.
