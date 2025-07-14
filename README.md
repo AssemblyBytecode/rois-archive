@@ -37,7 +37,7 @@ lines and create a blank line at the end.
 
 
 
-Example usage:
+Example Usage
 `. scary.txt 3`
 `BOO!`
 `Did I scare you?`
@@ -76,4 +76,8 @@ directoryname: self explanatory, name of directory.
 Displays a comment from the author of the archive. Put whatever you want right after,
 don't make a new line though, then it'll show it the next time someone opens the archive
 up.
+
+#### ?
+
+Execute a command or application, will be removed because malware could be executed.
 
