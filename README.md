@@ -38,10 +38,10 @@ lines and create a blank line at the end.
 
 
 Example Usage
-`. scary.txt 3`
-`BOO!`
-`Did I scare you?`
-`Well I hope I did :D`
+1. `. scary.txt 3`
+2. `BOO!`
+3. `Did I scare you?`
+4. `Well I hope I did :D`
 
 
 
