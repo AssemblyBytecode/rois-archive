@@ -1,0 +1,16 @@
+. example.txt 1
+Howdy, yall!
+
+/. example_in_binary.txt
+72 1
+111 1
+119 1
+100 1
+121 1
+44 1
+32 1
+121 1
+97 1
+108 2
+33 1
+~

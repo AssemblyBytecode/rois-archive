@@ -17,6 +17,17 @@ of files, and easy modification in case of errors.
 
 
 
+### Rewrite Notice
+
+
+
+Sorry for the hold up!
+I am currently rewriting Rois Archive to support binaries and be "embedded"
+into executables. Check out the failiure code, but just know I will not
+maintain it.
+
+
+
 ### Rois Archive Cheat Sheet
 
 
@@ -37,11 +48,12 @@ lines and create a blank line at the end.
 
 
 
-Example usage:
-  . scary.txt 3
-  BOO!
-  Did I scare you?
-  Well I hope I did :D
+Example Usage
+1. `. scary.txt 3`
+2. `BOO!`
+3. `Did I scare you?`
+4. `Well I hope I did :D`
+
 
 
 
@@ -75,4 +87,8 @@ directoryname: self explanatory, name of directory.
 Displays a comment from the author of the archive. Put whatever you want right after,
 don't make a new line though, then it'll show it the next time someone opens the archive
 up.
+
+#### ?
+
+Execute a command or application, will be removed because malware could be executed.
 
