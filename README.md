@@ -17,14 +17,15 @@ of files, and easy modification in case of errors.
 
 
 
-### Rewrite Notice
+### Rewrite Notice (7/23)
 
 
 
 Sorry for the hold up!
-I am currently rewriting Rois Archive to support binaries and be "embedded"
-into executables. Check out the failiure code, but just know I will not
-maintain it.
+I am currently rewriting Rois Archive. 
+Please Check out the failiure code, it contains my funniest mistakes
+from thinking Blitz Basic arrays are like Lua arrays using 1 for the first entry.
+
 
 
 
