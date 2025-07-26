@@ -33,6 +33,40 @@ from thinking Blitz Basic arrays are like Lua arrays using 1 for the first entry
 
 
 
+#### /.
+
+Creates a file with the following parameter as filename.
+HOWEVER: Unlike . which reads all lines until specified count,
+this uses bytes, and as an added bonus, basic compression.
+Also, if you have a very large amount of padding for example with 
+spaces in a binary simply do the following:
+```
+32 <number of times to repeat>
+```
+This is great for uncompressed BMPs, very wasteful files, and more with
+this problem.
+
+
+
+Example Usage:
+```
+/. example.txt
+72 1
+111 1
+119 1
+100 1
+121 1
+44 1
+32 1
+121 1
+97 1
+108 2
+33 1
+~
+```
+
+
+
 #### .
 
 Creates a file with these two following parameters: filename lines
@@ -44,16 +78,20 @@ lines: how long the file contents go for in lines.
 
 
 
-NOTE: If example usage doesn't work try replacing it to look for four
+NOTE: If example usage doesn't work try replacing it to look for six
 lines and create a blank line at the end.
 
 
 
-Example Usage
-1. `. scary.txt 3`
-2. `BOO!`
-3. `Did I scare you?`
-4. `Well I hope I did :D`
+Example Usage:
+```
+. example.txt 5
+Science
+Technology
+Engineering
+and
+Mathematics
+```
 
 
 
@@ -62,24 +100,7 @@ Example Usage
 
 Creates a directory with the following parameter as the name.
 You can create subdirectories with this instruction using backslashes,
-but I personally prefer using ;
-
-
-
-#### ;
-
-Creates a subdirectory with these two following parameters: directory directoryname
-Also, maybe in future versions this will become deprecated? I am not sure,
-but I have been thinking.
-
-
-
-directory: The parent directory's name. Add a backslash if you are planning for the
-subdirectory to be in a subdirectory like the following: example\\to\\subdirectory
-
-
-
-directoryname: self explanatory, name of directory.
+but I personally prefer using ; (REMOVED)
 
 
 
@@ -88,8 +109,3 @@ directoryname: self explanatory, name of directory.
 Displays a comment from the author of the archive. Put whatever you want right after,
 don't make a new line though, then it'll show it the next time someone opens the archive
 up.
-
-#### ?
-
-Execute a command or application, will be removed because malware could be executed.
-
