@@ -106,6 +106,4 @@ but I personally prefer using ; (REMOVED)
 
 #### !
 
-Displays a comment from the author of the archive. Put whatever you want right after,
-don't make a new line though, then it'll show it the next time someone opens the archive
-up.
+Displays a comment from the author of the archive. Put whatever you want right after, no arguments, it just prints whatever is after it.
