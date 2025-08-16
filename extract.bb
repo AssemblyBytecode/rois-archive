@@ -78,6 +78,7 @@ While Not Eof(archive)
 				If byte$ = "~" Then Exit
 				getArgs$(byte$)
 				For i=1 To Int(arg2$) ; Very basic compression, but it works well for BMPs and more.
+					; RLE may be outdated, but this supposed to be quick, especially since it's built for portable executables.
 					WriteByte(file, Int(arg1$))
 				Next
 				Print "Wrote byte " + Int(arg1$) + Chr(32) + Int(arg2$)  + " times"
